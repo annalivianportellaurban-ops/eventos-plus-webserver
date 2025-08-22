@@ -10,6 +10,6 @@ router.get("/", HomeController.index);
 router.get("/servicos", ServicosController.index);
 router.get("/portfolio", PortfolioController.index);
 router.get("/contatos", ContatoController.index);
-router.post("/contato", ContatoController.send)
+router.post("/contatos", ContatoController.send)
 
 module.exports = router;
